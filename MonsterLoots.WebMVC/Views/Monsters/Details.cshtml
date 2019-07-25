@@ -1,0 +1,50 @@
+﻿@model MonsterLoots.Models.Monsters.MonstersDetails
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MonstersDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MonsterId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MonsterId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MonsterName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MonsterName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MonsterLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MonsterLevel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MonsterDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MonsterDesc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

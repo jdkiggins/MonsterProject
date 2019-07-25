@@ -1,0 +1,6 @@
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Contracts\bin\Debug\MonsterLoots.Contracts.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Contracts\bin\Debug\MonsterLoots.Contracts.pdb
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Contracts\obj\Debug\MonsterLoots.Contracts.csprojAssemblyReference.cache
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Contracts\obj\Debug\MonsterLoots.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Contracts\obj\Debug\MonsterLoots.Contracts.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Contracts\obj\Debug\MonsterLoots.Contracts.pdb

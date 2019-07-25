@@ -1,0 +1,16 @@
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\obj\Debug\MonsterLoots.Data.csprojAssemblyReference.cache
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\obj\Debug\MonsterLoots.Data.csproj.CoreCompileInputs.cache
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\MonsterLoots.Data.dll.config
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\MonsterLoots.Data.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\MonsterLoots.Data.pdb
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\EntityFramework.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\EntityFramework.xml
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\obj\Debug\MonsterLoots.Data.csproj.CopyComplete
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\obj\Debug\MonsterLoots.Data.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Data\obj\Debug\MonsterLoots.Data.pdb

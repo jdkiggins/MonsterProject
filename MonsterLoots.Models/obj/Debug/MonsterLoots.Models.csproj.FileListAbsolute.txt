@@ -1,0 +1,6 @@
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Models\bin\Debug\MonsterLoots.Models.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Models\bin\Debug\MonsterLoots.Models.pdb
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Models\obj\Debug\MonsterLoots.Models.csprojAssemblyReference.cache
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Models\obj\Debug\MonsterLoots.Models.csproj.CoreCompileInputs.cache
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Models\obj\Debug\MonsterLoots.Models.dll
+C:\Users\jdkig\source\repos\MonsterLoots\MonsterLoots.Models\obj\Debug\MonsterLoots.Models.pdb

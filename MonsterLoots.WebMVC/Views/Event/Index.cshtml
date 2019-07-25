@@ -1,0 +1,89 @@
+﻿@model MonsterLoots.Models.Event.EventModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<br />
+
+@using (Html.BeginForm())
+{
+    <br />
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <p class="table header-text" style="font-size: 35px; color: #0316AA; text-align: center;">Select a Monster:</p>
+            <div id="dropbox">
+                @Html.DropDownList("MonsterId", null, string.Empty, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MonsterId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <br />
+        <div class="form-group" style="text-align: center;">
+            <div class="col-md-12">
+                <input type="submit" value="Generate Loot" class="button" />
+            </div>
+        </div>
+    </div>
+    if (TempData.ContainsKey("SaveResult"))
+    {
+        <div class="bannerwrapper">
+            <div class="banner">
+                <p style="color: #9a5427" ;>You received...</p>
+                @TempData["SaveResult"]
+            </div>
+        </div>
+    }
+}
+
+<br />
+<br />
+
+<br />
+<hr />
+<h2 class="titles" style="text-align: center;">History</h2>
+
+<p class="description" style="text-align: center;">
+    History of your previous loot!
+</p>
+<br />
+@if (ViewBag.historyList != null)
+{
+    int tempvar;
+    var size = ViewBag.historyList.Count;
+    if (size < 10)
+    {
+        tempvar = size;
+    }
+    else
+    {
+        tempvar = 10;
+    }
+    <table class="table header-text" style="font-size: 35px; color: #0316AA;">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MonsterName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LootName)
+            </th>
+            <th></th>
+        </tr>
+        @for (int i = 0; i < tempvar; i++)
+        {
+            <tr class="table-font">
+                <td>
+                    @ViewBag.historyList[i].MonsterName
+                </td>
+                <td>
+                    @ViewBag.historyList[i].LootName
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
